@@ -1,0 +1,62 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family :Verdana;
+
+.game-controls{
+  margin-top:60px;
+  width:480px;
+  background-color:grey;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  padding:5px;
+  button{
+    width:80px;
+    margin:5px;
+    &:hover{
+      background-color:pink;
+    }
+    
+  }
+  input{
+    width:80px;
+  }
+}
+
+.game-board{
+  width:700px;
+  border:10px solid grey;
+  border-radius :5px;
+  height:720px;
+  padding:0px;
+  td{
+  width:10px;
+  height:10px;
+  border : 1px solid grey;
+  margin:0px;
+    }
+ 
+}
+
+.game-settings{
+  width:580px;
+  background-color:grey;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  padding:5px;
+  padding-left:15px;
+  button{
+    width:140px;
+    margin:5px;
+    &:hover{
+      background-color:pink;
+    }
+    
+  }
+  input{
+    width:80px;
+  }
+}
+}

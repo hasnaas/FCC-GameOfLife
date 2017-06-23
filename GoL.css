@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+}
+body .game-controls {
+  margin-top: 60px;
+  width: 480px;
+  background-color: grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+body .game-controls button {
+  width: 80px;
+  margin: 5px;
+}
+body .game-controls button:hover {
+  background-color: pink;
+}
+body .game-controls input {
+  width: 80px;
+}
+body .game-board {
+  width: 700px;
+  border: 10px solid grey;
+  border-radius: 5px;
+  height: 720px;
+  padding: 0px;
+}
+body .game-board td {
+  width: 10px;
+  height: 10px;
+  border: 1px solid grey;
+  margin: 0px;
+}
+body .game-settings {
+  width: 580px;
+  background-color: grey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  padding-left: 15px;
+}
+body .game-settings button {
+  width: 140px;
+  margin: 5px;
+}
+body .game-settings button:hover {
+  background-color: pink;
+}
+body .game-settings input {
+  width: 80px;
+}
